@@ -1,0 +1,6 @@
+- name: Uninstall Scala
+  sudo: yes
+  hosts: all
+
+  tasks:
+  - apt: name=scala state=absent

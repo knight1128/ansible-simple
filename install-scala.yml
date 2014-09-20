@@ -1,0 +1,6 @@
+- name: Install Scala
+  sudo: yes
+  hosts: all
+
+  tasks:
+  - apt: name=scala state=present
