@@ -5,6 +5,10 @@ hosts
 
 adhoc test
 - adhoc-install-scala.sh
+
+'scala' execution on managed node.
+
+adhoc test
 - adhoc-uninstall-scala.sh
 
 playbook test
