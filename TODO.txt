@@ -1,0 +1,12 @@
+
+Vagrantfile
+
+hosts
+
+adhoc test
+- adhoc-install-scala.sh
+- adhoc-uninstall-scala.sh
+
+playbook test
+- playbook-install-scala.sh
+- playbook-uninstall-scala.sh
