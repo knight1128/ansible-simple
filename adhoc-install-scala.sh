@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ansible -i hosts all  -m apt -a "name=scala state=present"
+ansible -i hosts all --sudo -m apt -a "name=scala state=present"
