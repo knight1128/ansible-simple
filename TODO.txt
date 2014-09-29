@@ -1,16 +1,14 @@
 
-Vagrantfile
+cat Vagrantfile
 
-hosts
+cat hosts
 
-adhoc test
-- adhoc-install-scala.sh
+./adhoc-install-scala.sh
 
 'scala' execution on managed node.
 
-adhoc test
-- adhoc-uninstall-scala.sh
+./adhoc-uninstall-scala.sh
 
-playbook test
-- playbook-install-scala.sh
-- playbook-uninstall-scala.sh
+./playbook-install-scala.sh
+
+./playbook-uninstall-scala.sh
